@@ -359,9 +359,9 @@ function Index() {
           <div className="text-sm text-muted-foreground">© {new Date().getFullYear()} Sonam Khopade. Crafted with ❤ & Java.</div>
           <div className="flex gap-3">
             {[
-              { icon: GithubIcon, href: "#" },
-              { icon: LinkedinIcon, href: "#" },
-              { icon: Mail, href: "mailto:sonam.khopade@example.com" },
+              { icon: GithubIcon, href: "https://github.com" },
+              { icon: LinkedinIcon, href: "https://linkedin.com/in/sonamkhopade" },
+              { icon: Mail, href: "mailto:sonam2khopade@example.com" },
             ].map((s, i) => (
               <a key={i} href={s.href} className="glass grid h-10 w-10 place-items-center rounded-full transition hover:neon-border hover:text-sky-300">
                 <s.icon className="h-4 w-4" />

@@ -321,9 +321,9 @@ function Index() {
       <Section id="contact" title="Get In Touch" kicker="Let's work together">
         <div className="grid gap-6 md:grid-cols-2">
           <motion.div {...reveal(0)} className="space-y-4">
-            <ContactRow icon={Mail} label="Email" value="sonam.khopade@example.com" href="mailto:sonam.khopade@example.com" />
-            <ContactRow icon={Phone} label="Phone" value="+91 00000 00000" href="tel:+910000000000" />
-            <ContactRow icon={LinkedinIcon} label="LinkedIn" value="linkedin.com/in/sonamkhopade" href="https://linkedin.com" />
+            <ContactRow icon={Mail} label="Email" value="sonam2khopade@example.com" href="mailto:sonam2khopade@example.com" />
+            <ContactRow icon={Phone} label="Phone" value="+91 87675 80170" href="tel:+918767580170" />
+            <ContactRow icon={LinkedinIcon} label="LinkedIn" value="linkedin.com/in/sonamkhopade" href="https://linkedin.com/in/sonamkhopade" />
             <ContactRow icon={MapPin} label="Location" value="Pune, India" />
           </motion.div>
           <motion.form
